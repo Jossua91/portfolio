@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Jossua Creuzet</title>
+        <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+        <link rel="stylesheet" href="./css/main.css" />
+        <link rel="stylesheet" href="./css/media.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+            integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+
+    <body>
+        <header id="header" class="header">
+        <div class="container container-lg">
+            <div class="header-nav">
+            <a
+                href="#home"
+                class="logo"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                >J.Creuzet</a
+            >
+            <nav id="nav" class="nav">
+                <ul class="nav-list" data-aos="fade-down" data-aos-duration="1000">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#formations" class="nav-link">Formations</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experiences" class="nav-link">Expériences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projets</a>
+                </li>
+                </ul>
+                <button id="nav-btn" class="nav-btn">
+                <img
+                    id="nav-btn-img"
+                    src="./img/icons/open.svg"
+                    alt="Navigation button"
+                />
+                </button>
+            </nav>
+            </div>
+        </div>
+        </header>
+
+        <section id="home" class="hero">
+            <div class="container container-lg">
+                <div
+                    class="hero-row"
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-out"
+                    data-aos-delay="500"
+                    data-aos-duration="1000"
+                >
+                <div class="hero-content">
+                    <span class="hero-greeting">Bonjour, Je suis</span>
+                    <h1 class="hero-heading">Jossua Creuzet</h1>
+                    <span class="hero-heading-subtitle">Étudiant en BTS SIO & Développeur web junior</span>
+                    <div class="about-social-list">
+                        <div class="social-links-row">
+                            <a href="#!">
+                                <img
+                                    src="./img/social_icons/github.svg"
+                                    alt="Link to GitHub account"
+                                />
+                            </a>
+                            <a href="#!">
+                                <img
+                                    src="./img/social_icons/linkedin.svg"
+                                    alt="Link to linkedin profile"
+                                />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="#projects" class="btn">Mon Portfolio</a>
+                    </div>
+                </div>
+                <!-- <div class="hero-img">
+                    <img
+                        src="./img/hero/hero.png"
+                        alt="Picture of Christian Buehner taken from Unsplash</a>
+                        "
+                    />
+                </div> -->
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-title">
+                <h2 class="title">À propos de moi</h2>
+                </div>
+                <div class="about-row">
+                <div
+                    class="about-content"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                >
+                    <p class="about-descr">
+                        En tant qu'étudiant passionné en BTS SIO, je me suis découvert une réelle passion pour le développement web. J'adore créer des sites internet et travailler avec des langages tels que HTML, CSS et JavaScript pour donner vie à des expériences interactives en ligne.
+                        J'ai encore beaucoup à apprendre, mais je suis motivé pour développer mes compétences dans ce domaine en constante évolution. Je suis ouvert aux nouvelles technologies et aux tendances actuelles du développement web, car je veux rester à jour et apporter ma contribution au monde de l'informatique.
+                    </p>
+                    <div class="about-download-btn">
+                    <a href="#!" class="btn btn-white">Télécharger CV</a>
+                    </div>
+                </div>
+                <div
+                    class="about-skills"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-delay="100"
+                >
+                    <div class="skill">
+                        <div class="skill-title">HTML/CSS</div>
+                        <div class="skill-percent">90%</div>
+                        <div class="skill-bar__progress">
+                            <div class="skill-bar__fill" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-title">LUA</div>
+                        <div class="skill-percent">90%</div>
+                        <div class="skill-bar__progress">
+                            <div class="skill-bar__fill" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-title">Javascript/React</div>
+                        <div class="skill-percent">60%</div>
+                        <div class="skill-bar__progress">
+                            <div class="skill-bar__fill" data-progress="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-title">PHP</div>
+                        <div class="skill-percent">30%</div>
+                        <div class="skill-bar__progress">
+                            <div class="skill-bar__fill" data-progress="30"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-title">Java</div>
+                        <div class="skill-percent">30%</div>
+                        <div class="skill-bar__progress">
+                            <div class="skill-bar__fill" data-progress="30"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-title">C#</div>
+                        <div class="skill-percent">20%</div>
+                        <div class="skill-bar__progress">
+                            <div class="skill-bar__fill" data-progress="20"></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="services-row">
+                    <div
+                        class="service-card"
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="50"
+                    >
+                        <img class="service-card-img" src="./img/services/01.svg" alt="" />
+                        <h3 class="service-card-title">Test title</h3>
+                        <p>
+                            test desc
+                        </p>
+                    </div>
+
+                    <div
+                        class="service-card"
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="200"
+                    >
+                        <img class="service-card-img" src="./img/services/02.svg" alt="" />
+                        <h3 class="service-card-title">Test title</h3>
+                        <p>
+                            test desc
+                        </p>
+                    </div>
+
+                    <div
+                        class="service-card"
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="500"
+                    >
+                        <img class="service-card-img" src="./img/services/03.svg" alt="" />
+                        <h3 class="service-card-title">Test title</h3>
+                        <p>
+                            test desc
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="formations" class="projects">
+            <div class="container container-lg">
+                <div class="projects-title">
+                    <h2 class="title">Formations</h2>
+                </div>
+
+                <div class="projects-row">
+                    <div
+                        class="project-box"
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-out"
+                        data-aos-duration="1000"
+                    >
+                        <a href="projects/project_1.html">
+                        <img class="project-img" src="./img/works/01.jpg" alt="" />
+                        <div class="project-mask">
+                            <div class="project-caption">
+                            <h5 class="white">Test title</h5>
+                            <p class="white">Test desc</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div
+                        class="project-box"
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-out"
+                        data-aos-delay="300"
+                        data-aos-duration="1000"
+                    >
+                        <a href="projects/project_1.html">
+                        <img class="project-img" src="./img/works/02.jpg" alt="" />
+                        <div class="project-mask">
+                            <div class="project-caption">
+                            <h5 class="white">Test title</h5>
+                            <p class="white">Test desc</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiences" class="projects experiences">
+            <div class="container container-lg">
+                <div class="projects-title">
+                <h2 class="title">Expériences professionnelles</h2>
+                </div>
+
+                <div class="projects-row">
+                    <div
+                        class="project-box"
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-out"
+                        data-aos-duration="1000"
+                    >
+                        <a href="projects/project_1.html">
+                            <img class="project-img" src="./img/works/01.jpg" alt="" />
+                            <div class="project-mask">
+                                <div class="project-caption">
+                                <h5 class="white">Test title</h5>
+                                <p class="white">Test desc</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="project-box"
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-out"
+                        data-aos-delay="300"
+                        data-aos-duration="1000"
+                    >
+                        <a href="projects/project_1.html">
+                        <img class="project-img" src="./img/works/02.jpg" alt="" />
+                        <div class="project-mask">
+                            <div class="project-caption">
+                            <h5 class="white">Test title</h5>
+                            <p class="white">Test desc</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div
+                        class="project-box"
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-out"
+                        data-aos-delay="600"
+                        data-aos-duration="1000"
+                    >
+                        <a href="projects/project_1.html">
+                        <img class="project-img" src="./img/works/03.jpg" alt="" />
+                        <div class="project-mask">
+                            <div class="project-caption">
+                            <h5 class="white">Test title</h5>
+                            <p class="white">Test desc</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container container-lg">
+                <div class="projects-title">
+                    <h2 class="title">Projets</h2>
+                </div>
+
+                <div class="projects-row">
+                    <div
+                        class="project-box"
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-out"
+                        data-aos-duration="1000"
+                    >
+                        <a href="projects/project_1.html">
+                            <img class="project-img" src="./img/works/01.jpg" alt="" />
+                            <div class="project-mask">
+                                <div class="project-caption">
+                                <h5 class="white">Test title</h5>
+                                <p class="white">Test desc</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="project-box"
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-out"
+                        data-aos-delay="300"
+                        data-aos-duration="1000"
+                    >
+                        <a href="projects/project_1.html">
+                        <img class="project-img" src="./img/works/02.jpg" alt="" />
+                        <div class="project-mask">
+                            <div class="project-caption">
+                            <h5 class="white">Test title</h5>
+                            <p class="white">Test desc</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div
+                        class="project-box"
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-out"
+                        data-aos-delay="600"
+                        data-aos-duration="1000"
+                    >
+                        <a href="projects/project_1.html">
+                        <img class="project-img" src="./img/works/03.jpg" alt="" />
+                        <div class="project-mask">
+                            <div class="project-caption">
+                            <h5 class="white">Test title</h5>
+                            <p class="white">Test desc</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div
+                        class="project-box"
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-out"
+                        data-aos-delay="900"
+                        data-aos-duration="1000"
+                    >
+                        <a href="projects/project_1.html">
+                        <img class="project-img" src="./img/works/04.jpg" alt="" />
+                        <div class="project-mask">
+                            <div class="project-caption">
+                            <h5 class="white">Test title</h5>
+                            <p class="white">Test desc</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div
+                        class="project-box"
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-out"
+                        data-aos-delay="1200"
+                        data-aos-duration="1000"
+                    >
+                        <a href="projects/project_1.html">
+                        <img class="project-img" src="./img/works/05.jpg" alt="" />
+                        <div class="project-mask">
+                            <div class="project-caption">
+                            <h5 class="white">Test title</h5>
+                            <p class="white">Test desc</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div
+                        class="project-box"
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-out"
+                        data-aos-delay="1500"
+                        data-aos-duration="1000"
+                    >
+                        <a href="projects/project_1.html">
+                        <img class="project-img" src="./img/works/06.jpg" alt="" />
+                        <div class="project-mask">
+                            <div class="project-caption">
+                            <h5 class="white">Test title</h5>
+                            <p class="white">Test desc</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-row">
+                    <div class="social-links-row footer-social">
+                        <a href="#!">
+                            <img
+                                src="./img/social_icons/github.svg"
+                                alt="Link to GitHub account"
+                            />
+                        </a>
+
+                        <a href="#!">
+                            <img
+                                src="./img/social_icons/linkedin.svg"
+                                alt="Link to linkedin profile"
+                            />
+                        </a>
+                    </div>
+
+                    <!-- <div class="footer-copyright">
+                        <p>&copy; Copyright John Sample 2024</p>
+                    </div> -->
+                </div>
+            </div>
+        </footer>
+
+        <div id="goToTop" class="goToTop">
+            <a href="#home">
+                <img src="./img/icons/arrow_up.svg" alt="Back to top"
+            /></a>
+        </div>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+            integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script type="module" src="./js/main.js"></script>
+    </body>
+</html>
