@@ -32,6 +32,9 @@
                         <li class="nav-item">
                             <a href="/index.html#projects" class="nav-link">Projets</a>
                         </li>
+                        <li class="nav-item">
+                            <a href="/index.html#veille" class="nav-link">Veille technologique</a>
+                        </li>
                     </ul>
                     <button id="nav-btn" class="nav-btn">
                         <img id="nav-btn-img" src="../img/icons/open.svg" alt="Navigation button" />
@@ -50,15 +53,12 @@
             <div class="about-row about-row-projects">
                 <div class="about-content" data-aos="fade-up" data-aos-duration="1000">
                     <p>
-                        Ce travail pratique s’inscrit dans la continuité de mon apprentissage de PHP, avec un focus particulier sur le
-                        développement d’API REST. L’objectif du projet était de comprendre comment construire et exploiter une API, afin de
-                        permettre aux applications d’accéder à une base de données via des requêtes HTTP, sans interagir directement avec la
-                        base. Ce changement d’approche s’inscrit dans une volonté de modernisation des pratiques en entreprise, visant à
-                        centraliser les échanges de données à travers des services web robustes, indépendants des interfaces clientes. Ce TP m’a
-                        permis de découvrir les principes fondamentaux des API REST (méthodes HTTP, routes, statuts, formats de réponse JSON,
-                        etc.), d’en créer une en PHP, et de la tester à l’aide de l’outil Postman. J’ai ainsi pu me familiariser avec le
-                        découplage entre front-end et back-end, en exposant proprement les données via des endpoints sécurisés et bien
-                        structurés.
+                        Ce TP fait suite à mon début d'apprentissage de PHP, plus particulièrement sur le
+                        développement d’API REST sur ce projet. L’objectif du projet était de comprendre comment construire et exploiter une API, afin de
+                        permettre aux applications d’accéder à une base de données via des requêtes. Ce TP m’a
+                        permis de découvrir les principes des API REST (méthodes HTTP, routes, statuts, formats de réponse JSON,
+                        etc.), d’en créer une en PHP, et de la tester à l’aide de l’outil Postman. J’ai ainsi pu me familiariser avec la
+                        distinction entre front-end et back-end.
                     </p>
 
                     <h3 class="subtitle" style="margin-top: 30px;">🔧 Langages et technologies utilisés :</h3>
@@ -71,7 +71,7 @@
 
                     <h3 class="subtitle" style="margin-top: 30px;">📎 Documents liés :</h3>
                     <ul style="margin-top: 30px;">
-                        <li><a href="../img/projects/tp_apichocolatein/api.php" target="_blank">📄 Fichier principal de l'API (Php)</a></li>
+                        <li><a href="../img/projects/tp_apichocolatein/api.php" target="_blank">📄 Fichier principal de l'API (PHP)</a></li>
                         <li><a href="../img/projects/tp_apichocolatein/chocolatein.sql" target="_blank">📄 Base de données (SQL)</a></li>
                     </ul>
 
@@ -79,38 +79,15 @@
                     <li style="margin-top: 30px;"><strong>Travailler en mode projet :</strong></li>
                     <ul style="margin-top: 30px;">
                         <ul>
-                            <li>- Analyser les objectifs et les modalités d’organisation d’un projet : Objectif défini : exposer une base de données via des services web. Approche structurée (endpoints, statuts HTTP,
-                            sécurité).</li>
-                            <li>- Planifier les activités : Mise en œuvre progressive : conception de l’API, gestion des routes, tests.</li>
-                        </ul>
-                    </ul>
-                    
-                    <li style="margin-top: 30px;"><strong>Mettre à disposition des utilisateurs un service informatique :</strong></li>
-                    <ul style="margin-top: 30px;">
-                        <ul>
-                            <li>- Réaliser les tests d’intégration et d’acceptation d’un service : Implémentation de tests unitaires,
-                                d’intégration et fonctionnels avec PHPUnit et doctrine-test-bundle.</li>
-                            <li>- Déployer un service : Configuration de l’environnement local (WampServer, Composer), préparation à un
-                                usage utilisateur (interfaces
-                                publique et admin).</li>
+                            <li>- Analyser les objectifs et les modalités d’organisation d’un projet : exposer une base de données via des services web.</li>
+                            <li>- Planifier les activités : conception de l’API, gestion des routes, tests.</li>
                         </ul>
                     </ul>
                     
                     <li style="margin-top: 30px;"><strong>Organiser son développement professionnel :</strong></li>
                     <ul style="margin-top: 30px;">
                         <ul>
-                            <li>- Mettre en place son environnement d’apprentissage personnel : Découverte approfondie des API REST, des outils comme Postman, et des bonnes pratiques d’architecture web (découplage
-                            front/back).</li>
-                            <li>- Développer son projet professionnel : Expérimentation d’une architecture moderne largement utilisée en entreprise, renforcement de compétences clés côté
-                            backend.</li>
-                        </ul>
-                    </ul>
-                    
-                    <li style="margin-top: 30px;"><strong>Répondre aux incidents et aux demandes d’assistance et d’évolution :</strong></li>
-                    <ul style="margin-top: 30px;">
-                        <ul>
-                            <li>- Traiter des demandes concernant les applications : Implémentation de services robustes pour répondre aux besoins d’accès aux données côté client de manière sécurisée et
-                            standardisée.</li>
+                            <li>- Mettre en place son environnement d’apprentissage personnel : Découverte approfondie des API REST et de Postman.</li>
                         </ul>
                     </ul>
 
@@ -118,25 +95,24 @@
                     <div style="margin-top: 30px;">
                         <p>Cette requête vise à sélectionner tous les produits dans la table produit :</p>
                         <img class="example-img" src="../img/projects/tp_apichocolatein/1.webp" alt="Image 1">
-                        <p>Cela fait donc appel à traitementSelect depuis le routage GET, puis aucun cas spécifique ici donc cela appel la fonction selectTuplesOneTable :</p>
+                        <p>Cela fait donc appel à traitementSelect depuis le routage GET, puis aucun cas spécifique ici donc cela appelle la fonction selectTuplesOneTable :</p>
                         <img class="example-img" src="../img/projects/tp_apichocolatein/5.webp" alt="Image 5">
                         <img class="example-img" src="../img/projects/tp_apichocolatein/6.webp" alt="Image 6">
 
-                        <p style="margin-top: 30px;">Ici c'est la même chose sauf qu'on spécifie une 'idgamme' :</p>
+                        <p style="margin-top: 30px;">Ici c'est la même chose sauf qu'on spécifie 'idgamme' :</p>
                         <img class="example-img" src="../img/projects/tp_apichocolatein/2.png" alt="Image 2">
 
                         <p style="margin-top: 30px;">Cette requête vise à insérer un produit dans la table produit :</p>
                         <img class="example-img" src="../img/projects/tp_apichocolatein/3.webp" alt="Image 3">
-                        <p>Cela fait donc appel à traitementInsert depuis le routage POST, puis appel la fonction insertProduit :</p>
+                        <p>Cela fait donc appel à traitementInsert depuis le routage POST, puis appelle la fonction insertProduit :</p>
                         <img class="example-img" src="../img/projects/tp_apichocolatein/7.webp" alt="Image 7">
                         <img class="example-img" src="../img/projects/tp_apichocolatein/8.webp" alt="Image 8">
 
                         <p style="margin-top: 30px;">Cette requête vise à supprimer un produit dans la table produit :</p>
                         <img class="example-img" src="../img/projects/tp_apichocolatein/4.webp" alt="Image 4">
-                        <p>Cela fait donc appel à traitementInsert depuis le routage POST, puis aucun cas spécifique ici donc cela appel la fonction deleteTuplesOneTable :</p>
+                        <p>Cela fait donc appel à traitementInsert depuis le routage POST, puis aucun cas spécifique ici donc cela appelle la fonction deleteTuplesOneTable :</p>
                         <img class="example-img" src="../img/projects/tp_apichocolatein/9.webp" alt="Image 9">
                         <img class="example-img" src="../img/projects/tp_apichocolatein/10.webp" alt="Image 10">
-
                     </div>
                 </div>
             </div>
